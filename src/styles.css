@@ -99,6 +99,10 @@
   --priority-low: oklch(0.5 0.13 155);
   --priority-low-soft: oklch(0.94 0.05 155);
   --gradient-brand: linear-gradient(135deg, oklch(0.6 0.19 300), oklch(0.68 0.16 350));
+  --ring-from: oklch(0.6 0.19 300);
+  --ring-to: oklch(0.7 0.16 350);
+  --track: oklch(0.93 0.02 315);
+
   --gradient-page: linear-gradient(
     160deg,
     oklch(0.95 0.045 305) 0%,
