@@ -16,13 +16,21 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        watch:
+          "bg-foreground text-background shadow-soft hover:bg-foreground/90 hover:shadow-float",
+        quiz: "border border-border bg-white/70 text-foreground shadow-soft backdrop-blur-md hover:bg-white/90",
+        ghostGlass:
+          "border border-border/70 bg-white/40 text-muted-foreground backdrop-blur-md hover:bg-white/70 hover:text-foreground",
+        hero: "bg-gradient-brand text-background shadow-float hover:opacity-95",
       },
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
+        pill: "h-10 rounded-xl px-4 text-sm",
       },
+
     },
     defaultVariants: {
       variant: "default",
