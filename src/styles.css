@@ -162,7 +162,22 @@
   }
 
   body {
-    background-color: var(--color-background);
+    background: var(--gradient-page);
+    background-attachment: fixed;
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
   }
 }
+
+@utility glass-panel {
+  background: color-mix(in oklab, white 62%, transparent);
+  backdrop-filter: blur(22px) saturate(150%);
+  border: 1px solid color-mix(in oklab, white 70%, transparent);
+  box-shadow: var(--shadow-soft);
+}
+
+@utility bg-gradient-brand {
+  background-image: var(--gradient-brand);
+}
+
